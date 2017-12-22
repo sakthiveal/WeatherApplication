@@ -23,7 +23,7 @@ function onDeviceReady(){
 
 	$('#other_location').click(function(e){
 		e.preventDefault();
-		getOtherLocation()
+		getOtherLocation();
 	});
 }
 
